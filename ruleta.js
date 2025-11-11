@@ -11,14 +11,14 @@
         });
 
         const conceptos = Object.freeze([
-            { index: 0, nombre: 'Solidaridad', descripcion: 'Principio fundamental que une a todos los trabajadores', pregunta: '¿Qué principio de la seguridad social establece que los trabajadores activos contribuyen para proteger a quienes están en situación de necesidad?' },
-            { index: 1, nombre: 'Universalidad', descripcion: 'Derecho aplicable a todas las personas sin distinción', pregunta: '¿Cuál es el principio que garantiza que la seguridad social se aplica a todas las personas sin distinción de sexo, edad o condición social?' },
+            { index: 0, nombre: 'Principios de Seguridad Social', descripcion: 'Principio fundamental que une a todos los trabajadores', pregunta: '¿Qué principio de la seguridad social establece que los trabajadores activos contribuyen para proteger a quienes están en situación de necesidad?' },
+            { index: 1, nombre: 'Principios de Seguridad Social', descripcion: 'Derecho aplicable a todas las personas sin distinción', pregunta: '¿Cuál es el principio que garantiza que la seguridad social se aplica a todas las personas sin distinción de sexo, edad o condición social?' },
             { index: 2, nombre: 'Prestaciones', descripcion: 'Beneficios económicos y sociales del sistema', pregunta: '¿Qué porcentaje de los ingresos gravados se calcula para el subsidio por enfermedad?' },
             { index: 3, nombre: 'Historia Laboral', descripcion: 'Registro de aportes y períodos trabajados', pregunta: '¿Qué ley creó la Historia Laboral en Uruguay y desde qué año se implementó?' },
             { index: 4, nombre: 'Subsidios', descripcion: 'Protección económica en situaciones de necesidad', pregunta: '¿Cuál es la duración máxima que cubre el subsidio por enfermedad por período de incapacidad?' },
             { index: 5, nombre: 'Jubilaciones', descripcion: 'Seguridad económica para la vejez', pregunta: '¿Qué sistema de jubilaciones funciona en Uruguay combinando el BPS con las AFAPs?' },
             { index: 6, nombre: 'Seguro de Salud', descripcion: 'Cobertura médica y asistencial', pregunta: '¿A partir de qué reforma la Historia Laboral también impacta en el cálculo del seguro de salud del trabajador?' },
-            { index: 7, nombre: 'Igualdad de Trato', descripcion: 'Principio de no discriminación en el sistema', pregunta: '¿Qué principio de la seguridad social garantiza que no haya discriminación en el acceso a las prestaciones?' }
+            { index: 7, nombre: 'Principios de la Seguridad Social', descripcion: 'Principio de no discriminación en el sistema', pregunta: '¿Qué principio de la seguridad social garantiza que no haya discriminación en el acceso a las prestaciones?' }
         ]);
 
         const crearEstado = () => ({
@@ -253,4 +253,5 @@
     }
 
 })();
+
 
