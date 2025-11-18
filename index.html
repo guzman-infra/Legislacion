@@ -6,11 +6,12 @@
     <title>Seguridad Social</title>
   <link rel="stylesheet" href="stilos.css">
   <script src="ruleta.js" defer></script>
+  <script src="quiz.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Seguridad Social</h1>
-        <p>Derecho humano esencial para la dignidad y bienestar de todas las personas.</p>
+        <p>Derecho humano esencial para la dignidad y bienestar de todas las personas</p>
     </header>
     <div class="contenedor para el contenedor OMG!!!" style="display: flex;justify-content: center;">
     <div class="contenedoruwu" style="display: inline-block; background-color: #ffffff;">
@@ -20,6 +21,7 @@
         <a href="#prest">Prestaciones</a>
         <a href="#histLabora">Historia Laboral</a>
         <a href="#ruleta">Ruleta</a>
+        <a href="#quiz">Quiz</a>
     </nav>
 
     <section id="intro">
@@ -95,7 +97,7 @@
 
     <section id="ruleta">
         <h2>Ruleta de Seguridad Social</h2>
-        <p>Gira la ruleta para descubrir conceptos importantes sobre la Seguridad Social.</p>
+        <p>Gira la ruleta para descubrir conceptos importantes sobre la seguridad social.</p>
         <div class="ruleta-container">
             <div class="ruleta-wrapper">
                 <div class="ruleta-wheel" id="ruletaWheel">
@@ -129,6 +131,33 @@
             </div>
             <button id="btnGirarRuleta" class="btn-girar">Girar</button>
             <div id="resultadoRuleta" class="resultado-ruleta"></div>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <h2>Quiz</h2>
+        <div id="quizContainer" class="quiz-container">
+            <div class="quiz-start">
+                <button id="btnIniciarQuiz" class="btn-quiz-start">Iniciar Quiz</button>
+                <p class="quiz-info">10 preguntas</p>
+            </div>
+            <div class="quiz-content" style="display: none;">
+                <div class="quiz-header">
+                    <div class="quiz-progress-wrapper">
+                        <div id="quizProgress" class="quiz-progress-bar">
+                            <span class="quiz-progress-text">Pregunta 0 de 10</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quiz-body">
+                    <h3 id="quizQuestion" class="quiz-question"></h3>
+                    <div id="quizOptions" class="quiz-options"></div>
+                    <div id="quizResult" class="quiz-result"></div>
+                    <button id="btnSiguiente" class="btn-quiz-next" style="display: none;">Siguiente Pregunta</button>
+                </div>
+            </div>
+            <div id="quizScore" class="quiz-score"></div>
+            <button id="btnReiniciarQuiz" class="btn-quiz-restart" style="display: none;">Reiniciar Quiz</button>
         </div>
     </section>
         </div>
